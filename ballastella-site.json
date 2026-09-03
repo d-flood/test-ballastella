@@ -1,0 +1,48 @@
+{
+	"formatVersion": 2,
+	"viewerVersion": "3ed38130d398b035",
+	"publishedAt": "2026-09-03T21:10:21.747Z",
+	"editorUrl": "https://artshumrc.github.io/ballastella/",
+	"repository": {
+		"owner": "d-flood",
+		"repository": "test-ballastella",
+		"branch": "main"
+	},
+	"projects": [
+		{
+			"directory": "very-awesome-project",
+			"name": "Very Awesome Project",
+			"onFrontPage": false
+		}
+	],
+	"baseMap": {
+		"entries": [
+			{
+				"id": "planet",
+				"label": "Worldwide",
+				"needsNetwork": true,
+				"archive": "https://data.source.coop/protomaps/openstreetmap/v4.pmtiles"
+			}
+		],
+		"defaultId": "planet",
+		"initialView": {
+			"center": [
+				0,
+				20
+			],
+			"zoom": 1
+		},
+		"glyphs": "base-map/fonts/{fontstack}/{range}.pbf",
+		"terrain": {
+			"tiles": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png",
+			"encoding": "terrarium",
+			"maxZoom": 15,
+			"attribution": "<a href=\"https://github.com/tilezen/joerd/blob/master/docs/attribution.md\" target=\"_blank\" rel=\"noreferrer\">Terrain Tiles</a>"
+		},
+		"sprite": "base-map/sprites/{flavor}",
+		"attribution": "<a href=\"https://openstreetmap.org/copyright\" target=\"_blank\" rel=\"noreferrer\">© OpenStreetMap</a> · <a href=\"https://protomaps.com\" target=\"_blank\" rel=\"noreferrer\">Protomaps</a>"
+	},
+	"baseMapBundled": false,
+	"baseMapAssetsBundled": true,
+	"baseMapCaches": []
+}
