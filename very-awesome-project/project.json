@@ -1,0 +1,17 @@
+{
+	"formatVersion": 1,
+	"name": "Very Awesome Project",
+	"description": "Africa\nCirca 1982",
+	"updatedAt": "2026-09-03T14:22:56.978Z",
+	"layers": [
+		{
+			"kind": "annotation",
+			"id": "b592cb00-ce19-4fd3-a696-52f691adc9fd",
+			"name": "Annotations 1",
+			"visible": true,
+			"order": 0,
+			"geojsonRef": "annotations/b592cb00-ce19-4fd3-a696-52f691adc9fd.geojson"
+		}
+	],
+	"baseMap": null
+}
