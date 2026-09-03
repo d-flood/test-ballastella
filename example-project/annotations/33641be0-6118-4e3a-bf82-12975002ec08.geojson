@@ -1,0 +1,22 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"id": "16b566fb-aa4c-4319-b753-3dcf18268118",
+			"properties": {
+				"marker-color": "#555555",
+				"stroke": "#555555",
+				"fill": "#555555",
+				"title": "Hi!"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-89.43854702870966,
+					43.98946890362919
+				]
+			}
+		}
+	]
+}

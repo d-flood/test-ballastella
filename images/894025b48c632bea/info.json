@@ -1,0 +1,22 @@
+{
+	"@context": "http://iiif.io/api/image/3/context.json",
+	"id": "https://unset.invalid/894025b48c632bea",
+	"type": "ImageService3",
+	"protocol": "http://iiif.io/api/image",
+	"profile": "level0",
+	"width": 3314,
+	"height": 2611,
+	"tiles": [
+		{
+			"width": 256,
+			"height": 256,
+			"scaleFactors": [
+				1,
+				2,
+				4,
+				8,
+				16
+			]
+		}
+	]
+}
